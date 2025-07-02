@@ -1,0 +1,10 @@
+
+kotlin:S6615¾";Remove this variable, which is assigned but never accessed.(éÎœ8àßúÁŠ2J$bda4540d-122a-4515-a825-278b120643b5
+‚kotlin:S6619¬"<Remove this useless null-safe access ?., it always succeeds.(ÿ ş8œ›şÀŠ2J$8f9cad28-a38a-4038-88fe-a05ad26adfbd
+‚kotlin:S6619­"<Remove this useless null-safe access ?., it always succeeds.(Šãí‡8âßúÁŠ2J$50f71942-e19a-435b-aa18-b172eae59d05
+ikotlin:S125‰"Remove this commented out code.(Œ ş‚üÿÿÿÿ8ãßúÁŠ2J$b5260cd3-d1d9-4d49-a7bd-f446ef851e91
+dkotlin:S125"Remove this commented out code.(–±Ù8äßúÁŠ2J$18663a8d-e261-40c7-a224-e73a9966e358
+ikotlin:S125Ø"Remove this commented out code.(ÎÁ¯ëÿÿÿÿÿ8äßúÁŠ2J$4f965e94-4f8a-4808-93d1-2ae157f4bf57
+xkotlin:S1135¶"2Complete the task associated to this TODO comment.(êÅÅ8òßúÁŠ2J$c35fb338-5f0e-40ec-9693-f518bb1dad88
+_kotlin:S1128"Remove this unused import.(³¨¡Î8Û¡ÂŠ2J$355aa8ee-43da-48f7-ae79-151e69ad9310
+wkotlin:S6518Í",Replace function call with indexed accessor.(½ºıÿÿÿÿÿ8‚àúÁŠ2J$c3972f99-4c6d-4094-97a1-4c29939fc42a

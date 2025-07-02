@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="150dp">
+
+    <ImageView
+        android:id="@+id/greyBar"
+        android:layout_width="20dp"
+        android:layout_height="match_parent"
+        android:layout_marginStart="30dp"
+        android:background="#e6e6ee"
+        android:elevation="3dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:background="@drawable/round_white_image"
+        android:elevation="3dp"
+        app:layout_constraintBottom_toBottomOf="@+id/textTappa"
+        app:layout_constraintEnd_toEndOf="@+id/greyBar"
+        app:layout_constraintStart_toStartOf="@+id/greyBar"
+        app:layout_constraintTop_toTopOf="@+id/textTappa" />
+
+    <TextView
+        android:id="@+id/textTappa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:textStyle="bold"
+        android:layout_marginTop="30dp"
+        android:fontFamily="monospace"
+        android:text="@string/palermo_centale"
+        android:textSize="13sp"
+        app:layout_constraintStart_toEndOf="@+id/greyBar"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/arrivo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:text="Arrivo"
+        android:textSize="11sp"
+        app:layout_constraintBottom_toBottomOf="@+id/orarioArrivo"
+        app:layout_constraintStart_toEndOf="@+id/greyBar"
+        app:layout_constraintTop_toTopOf="@+id/orarioArrivo" />
+
+    <TextView
+        android:id="@+id/partenza"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:text="Partenza"
+        android:textSize="11sp"
+        app:layout_constraintBottom_toBottomOf="@+id/orarioPartenza"
+        app:layout_constraintStart_toEndOf="@+id/greyBar"
+        app:layout_constraintTop_toTopOf="@+id/orarioPartenza" />
+
+    <TextView
+        android:id="@+id/orarioArrivo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="5dp"
+        android:text="12:00"
+        android:textSize="11sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/dataArrivo"
+        app:layout_constraintTop_toBottomOf="@+id/textTappa" />
+
+    <TextView
+        android:id="@+id/orarioPartenza"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="5dp"
+        android:text="13:00"
+        android:textSize="11sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/dataPartenza"
+        app:layout_constraintTop_toBottomOf="@+id/orarioArrivo" />
+
+    <ImageView
+        android:id="@+id/typeTransport"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginEnd="5dp"
+        android:src="@drawable/boat"
+        app:layout_constraintBottom_toBottomOf="@+id/textTappa"
+        app:layout_constraintEnd_toStartOf="@+id/transportId"
+        app:layout_constraintTop_toTopOf="@+id/textTappa" />
+
+    <TextView
+        android:id="@+id/transportId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="25dp"
+        android:text="24221"
+        android:textSize="11sp"
+        app:layout_constraintBottom_toBottomOf="@+id/typeTransport"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/typeTransport" />
+
+    <TextView
+        android:id="@+id/dataArrivo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="10dp"
+        android:text="2024-10-10"
+        android:textSize="11sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textTappa" />
+
+    <TextView
+        android:id="@+id/dataPartenza"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:text="2024-10-10"
+        android:textSize="11sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/orarioArrivo" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

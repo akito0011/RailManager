@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/home"
+        android:title="@string/home1" />
+
+    <item
+        android:id="@+id/trova"
+        android:icon="@drawable/research"
+        android:title="@string/trova" />
+
+    <item
+        android:id="@+id/percorso"
+        android:icon="@drawable/percorso"
+        android:title="@string/percorso1" />
+    <item
+        android:id="@+id/itinerario"
+        android:icon="@drawable/itinerario"
+        android:title="@string/itinerario1"
+        />
+    <item
+        android:id="@+id/profilo"
+        android:icon="@drawable/profilo"
+        android:title="@string/profilo1"
+        />
+</menu>

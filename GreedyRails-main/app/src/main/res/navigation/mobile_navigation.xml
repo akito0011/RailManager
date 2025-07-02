@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/home">
+
+    <fragment
+        tools:layout="@layout/fragment_home"
+        android:id="@+id/home"
+        android:name="com.example.trainmanager.fragments.home.Home"
+        android:label="Home" >
+        <action
+            android:id="@+id/action_home_to_creazioneItinerario"
+            app:destination="@id/creazioneItinerario" />
+    </fragment>
+    <fragment
+        tools:layout="@layout/fragment_percorso"
+        android:id="@+id/percorso"
+        android:name="com.example.trainmanager.fragments.percorso.Percorso"
+        android:label="Percorso" >
+        <argument
+            android:name="isItinerario"
+            app:argType="boolean"
+            android:defaultValue="false"/>
+        <action
+            android:id="@+id/action_percorso_to_dettagliItinerario"
+            app:destination="@id/dettagliItinerario" />
+    </fragment>
+    <fragment
+        tools:layout="@layout/fragment_itinerario"
+        android:id="@+id/itinerario"
+        android:name="com.example.trainmanager.fragments.itinerario.Itinerario"
+        android:label="Itinerario" >
+        <action
+            android:id="@+id/action_itinerario_to_creazioneItinerario"
+            app:destination="@id/creazioneItinerario" />
+        <action
+            android:id="@+id/action_itinerario_to_dettagliItinerario"
+            app:destination="@id/dettagliItinerario" />
+    </fragment>
+    <fragment
+        android:id="@+id/creazioneItinerario"
+        android:name="com.example.trainmanager.fragments.creazioneIitinerario.CreazioneItinerario"
+        android:label="fragment_creazione_itinerario"
+        tools:layout="@layout/fragment_creazione_itinerario" >
+        <action
+            android:id="@+id/action_creazioneItinerario_to_dettagliItinerario"
+            app:destination="@+id/dettagliItinerario" />
+        <action
+            android:id="@+id/action_creazioneItinerario_to_home"
+            app:destination="@id/home" />
+
+    </fragment>
+    <fragment
+        android:id="@+id/dettagliItinerario"
+        android:name="com.example.trainmanager.fragments.dettagliIitinerario.DettagliItinerario"
+        android:label="fragment_dettagli_itinerario"
+        tools:layout="@layout/fragment_dettagli_itinerario" >
+        <argument
+            android:name="nomeItinerario"
+            app:argType="string"
+            android:defaultValue="" />
+        <argument
+            android:name="numeroPercorsi"
+            app:argType="integer"
+            android:defaultValue="0" />
+        <argument
+            android:name="dataInizio"
+            app:argType="string"
+            android:defaultValue="" />
+        <argument
+            android:name="notifiche"
+            app:argType="boolean"
+            android:defaultValue="false" />
+        <action
+            android:id="@+id/action_dettagliItinerario_to_percorso"
+            app:destination="@+id/percorso" />
+        <action
+            android:id="@+id/action_dettagliItinerario_to_home"
+            app:destination="@id/home" />
+        <action
+            android:id="@+id/action_dettagliItinerario_to_itinerario"
+            app:destination="@id/itinerario" />
+    </fragment>
+    <fragment
+        android:id="@+id/trova"
+        android:name="com.example.trainmanager.fragments.trova.Trova"
+        android:label="Trova"
+        tools:layout="@layout/fragment_trova"
+        />
+    <fragment
+        android:id="@+id/profilo"
+        android:name="com.example.trainmanager.fragments.profilo.Profilo"
+        android:label="fragment_profilo"
+        tools:layout="@layout/fragment_profilo" />
+</navigation>

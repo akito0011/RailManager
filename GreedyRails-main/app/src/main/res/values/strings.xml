@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">TrainManager</string>
+    <string name="username">Username</string>
+    <string name="train_pummolo">TRAIN PUMMOLO</string>
+    <string name="password">password</string>
+    <string name="nuovo_utente_registrati"><u>Nuovo utente? Registrati</u></string>
+    <string name="accedi">Accedi</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="cognome">cognome</string>
+    <string name="title_activity_home_page">HomePage</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="i_miei_vaggi">i miei vaggi</string>
+    <string name="i_miei_viaggi">I miei Viaggi</string>
+    <string name="cerca_percorso">Cerca percorso</string>
+    <string name="crea_itinerario">Crea itinerario</string>
+    <string name="profilo">Profilo</string>
+    <string name="miei_viaggi">Miei viaggi</string>
+    <string name="percorso">Percorso</string>
+    <string name="itinerario">Itinerario</string>
+    <string name="trova_treno">TROVA TRENO</string>
+    <string name="home">HOME</string>
+    <string name="trova">TROVA</string>
+    <string name="ricerca_treno">RICERCA TRENO</string>
+    <string name="itinerario1">ITINERARIO</string>
+    <string name="profilo1">PROFILO</string>
+    <string name="percorso1">PERCORSO</string>
+    <string name="home1">HOME</string>
+    <string name="title_activity_test">Test</string>
+    <string name="partenza">Partenza</string>
+    <string name="arrivo">Arrivo</string>
+    <string name="suggerimenti">Suggerimenti</string>
+    <string name="codice_treno">Codice treno</string>
+    <string name="stazione_centrale_palermo_pa">Stazione centrale Palermo (PA)</string>
+    <string name="separator">-----------------------------------------</string>
+    <string name="_3_cambi">3 Cambi</string>
+    <string name="palermo_centale">Palermo Centale</string>
+    <string name="stazione">Stazione</string>
+    <string name="emailUtente"></string>
+    <string name="nomeUtente"></string>
+    <string name="cognomeUtente"></string>
+    <string name="passwordUtente"></string>
+    <string name="greedyrails">GreedyRails</string>
+</resources>
