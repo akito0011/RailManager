@@ -7,7 +7,7 @@
 [![Project Type](https://img.shields.io/badge/University%20Project-Yes-blue)]()
 
 **GreedyRails** is a mobile application developed as a **university project** for the course **Web and Mobile Programming**.  
-It functions as a **train travel assistant for Italy**, allowing users to:
+It functions as a **train travel assistant**, allowing users to:
 
 - Search train routes  
 - View real-time schedules  
@@ -20,7 +20,7 @@ It functions as a **train travel assistant for Italy**, allowing users to:
 
 ### 🧩 Frontend (Android)
 - **Language**: Kotlin  
-- **UI Framework**: Jetpack Compose  
+- **UI Framework**: Jetpack  
 - **Architecture**: MVVM  
 - **HTTP Client**: Retrofit  
 - **Local Database**: Room (SQLite-based persistence)  
@@ -38,7 +38,7 @@ It functions as a **train travel assistant for Italy**, allowing users to:
 - Real-time display of departure and arrival times  
 - Itinerary suggestions based on time, distance, and other travel constraints  
 - Offline storage of recent searches and itineraries via Room  
-- Clean, responsive, and intuitive UI with Jetpack Compose  
+- Clean, responsive, and intuitive UI with Jetpack  
 - Communication with a Python-based backend via Retrofit  
 
 ---
@@ -58,7 +58,7 @@ A **custom implementation of Dijkstra's algorithm** is used to compute the optim
 
 ## 👥 Development Team
 
-- **[Akito0011]** – UI/UX design and frontend development using Jetpack Compose  
+- **[Akito0011]** – UI/UX design and frontend development using Jetpack  
 - **M.M.** – Backend integration, data flow architecture, and graph algorithm implementation  
 
 ---
@@ -66,7 +66,7 @@ A **custom implementation of Dijkstra's algorithm** is used to compute the optim
 ## 🎓 Academic Context
 
 This app was created as part of the course **Web and Mobile Programming**, academic year **2023/2024** in **University of Palermo**.  
-Its goal was to apply modern mobile development practices and integrate backend services and graph-based routing algorithms.
+Its goal was to apply concept learnt during lectures about android developement and Kotlin language.
 
 ---
 
